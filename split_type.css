@@ -55,9 +55,11 @@
 .attr-img-bg {
   position: absolute;
   z-index: -1;
-  left: -15%;
+  left: -76%;
   transition: all 500ms ease-in-out;
   opacity: 0.5;
+  object-fit: contain;
+  width: 90%;
 }
 
 .attr-item:hover > .attr-img-bg {
